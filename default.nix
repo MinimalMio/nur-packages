@@ -15,6 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   # example-package = pkgs.callPackage ./pkgs/example-package { };
+  i686-elf-binutils = pkgs.callPackage ./pkgs/i686-elf-binutils { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
