@@ -11,12 +11,12 @@ vscode-utils.buildVscodeMarketplaceExtension {
     hash = "sha256-FD7fim0sRWAADzDAbhV3dnYW3mxoSgVPLs5Wkg5r01k=";
   };
 
-  meta = {
+  meta = with lib; {
     description = "A sweet and cute theme especially for coder girls.";
     downloadPage = "https://marketplace.visualstudio.com/items?itemName=ftsamoyed.theme-pink-cat-boo";
     homepage = "https://github.com/ftsamoyed/PinkCatBoo";
     changelog = "https://github.com/ftsamoyed/PinkCatBoo#update";
-    license = lib.licenses.mit;
+    license = licenses.mit;
     maintainers = with maintainers; [ "MinimalMio" ];
     platforms = platforms.all;
   };
