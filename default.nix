@@ -16,6 +16,7 @@
 
   # example-package = pkgs.callPackage ./pkgs/example-package { };
   i686-elf-binutils = pkgs.callPackage ./pkgs/i686-elf-binutils { };
+  vscode-theme-pink-cat-boo = pkgs.callPackage ./pkgs/ftsamoyed.theme-pink-cat-boo { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
